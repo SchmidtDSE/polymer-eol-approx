@@ -5,7 +5,7 @@ Notebook to estimate end of life volumes by plastic polymer per region and year 
 <br>
 
 ## Purpose
-This notebook approximates the polymer-level volumes reaching end of life in each region within the [Global Plastics AI Policy Tool](https://global-plastics-tool.org/) by distributing waste in each fate proportionally to the size of each sector at the time of waste generation. Having attributed waste by sector, a static matrix converts to polymers which are then summed across sectors. The notebook discusses limitations of this approach and alternatives after generating the output CSV file. This is provided as a convienence for the community but is not part of the central tool or its publications.
+This notebook approximates the polymer-level volumes reaching end of life in each region within the [Global Plastics AI Policy Tool](https://global-plastics-tool.org/) by distributing waste in each fate proportionally to the size of each sector at the time of waste generation. Having attributed waste by sector, a static matrix converts to polymers which are then summed across sectors. The notebook discusses limitations of this approach and alternatives after generating the output CSV file. This is provided as a convienence for the community but is not part of the "main tool" (see [tool repository](https://github.com/SchmidtDSE/plastics-prototype)) or its publications.
 
 <br>
 
