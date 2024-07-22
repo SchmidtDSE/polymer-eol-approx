@@ -4,14 +4,15 @@ on: [push]
 
 jobs:
   build:
+    name: Build
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Update apt
-        run: apt-get update
+        run: sudo apt-get update
       - name: Install zip
-        run: apt-get install zip
+        run: sudo apt-get install zip
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
