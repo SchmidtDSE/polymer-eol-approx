@@ -44,6 +44,10 @@ jobs:
     needs: [build]
     if: github.ref == 'refs/heads/main'
     steps:
+      - name: Update apt
+        run: sudo apt-get update
+      - name: Install zip
+        run: sudo apt-get install zip
       - name: Download artifact
         uses: actions/download-artifact@v3
         with:
