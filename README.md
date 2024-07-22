@@ -16,19 +16,6 @@ The easiest way to use this notebook is to simply download its output: [polymer_
 
 <br>
 
-## Limitations
-There are two important caveats for this software.
-
-### Legacy names
-
-Users may notice that the region naming convention has changed from prior releases of our tool. We provide these values as Majority World (MW) intead of Rest of World (ROW) and North America (NA) instead of NAFTA. These labels encompass the same parts of the world regardless of labeling convention though we encourage use of MW and NA. Alternative data exports with legacy names can be found in [the tool itself](https://global-plastics-tool.org/).
-
-### Approximated sectors
-
-Note that this method introduces a slight approximation. Due to lifecycle distributions, the sector ratios at time of waste generation may not be the same as if one were to project through time to get the prior sector ratios which generated the waste in question. However, this use of "end of life year ratios" provides a sufficient estimation for many use cases in which approximation is acceptable. Alternatively, one may generate more precise values by simulating the lifecycle distributions and summing volumes per-polymer while projecting forward future waste. For more details on this, see the [pipeline behind the Global Plastics AI Policy Tool](https://github.com/SchmidtDSE/plastics-pipeline).
-
-<br>
-
 ## Local environment
 For those looking to execute this locally, simply install python requirements with `pip install -r requirements.txt`. Users may also consider creating a [virtual environment](https://the-hitchhikers-guide-to-packaging.readthedocs.io/en/latest/virtualenv.html).
 
@@ -46,6 +33,19 @@ No explicit development standards are enforced at this time.
 
 ## Deployment
 Merging to the `main` branch will cause the artifact to be rebuilt and deployed to production where the file can be downloaded as [polymer_eol_approximate.csv](https://global-plastics-tool.org/data/polymer_eol_approximate.csv).
+
+<br>
+
+## Limitations
+There are two important caveats for this software.
+
+### Legacy names
+
+Users may notice that the region naming convention has changed from prior releases of our tool. We provide these values as Majority World (MW) intead of Rest of World (ROW) and North America (NA) instead of NAFTA. These labels encompass the same parts of the world regardless of labeling convention though we encourage use of MW and NA. Alternative data exports with legacy names can be found in [the tool itself](https://global-plastics-tool.org/).
+
+### Approximated sectors
+
+Note that this method introduces a slight approximation. Due to lifecycle distributions, the sector ratios at time of waste generation may not be the same as if one were to project through time to get the prior sector ratios which generated the waste in question. However, this use of "end of life year ratios" provides a sufficient estimation for many use cases in which approximation is acceptable. Alternatively, one may generate more precise values by simulating the lifecycle distributions and summing volumes per-polymer while projecting forward future waste. For more details on this, see the [pipeline behind the Global Plastics AI Policy Tool](https://github.com/SchmidtDSE/plastics-pipeline).
 
 <br>
 
