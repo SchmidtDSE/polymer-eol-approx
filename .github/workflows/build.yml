@@ -9,9 +9,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Update apt
-        uses: apt-get update
+        run: apt-get update
       - name: Install zip
-        uses: apt-get install zip
+        run: apt-get install zip
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
