@@ -15,11 +15,11 @@ The easiest way to use this notebook is to simply download its output: [polymer_
 <br>
 
 ## Limitations
-There are two important limitations with this software to highlight for users.
+There are two important caveats for this software.
 
 ### Legacy names
 
-We provide these values as Majority World (MW) intead of Rest of World (ROW) and North America (NA) instead of NAFTA. These labels encompass the same parts of the world regardless of labeling convention though we encourage use of MW and NA. Alternative data exports with legacy names can be found in [the tool itself](https://global-plastics-tool.org/).
+Users may notice that the region naming convention has changed from prior releases of our tool. We provide these values as Majority World (MW) intead of Rest of World (ROW) and North America (NA) instead of NAFTA. These labels encompass the same parts of the world regardless of labeling convention though we encourage use of MW and NA. Alternative data exports with legacy names can be found in [the tool itself](https://global-plastics-tool.org/).
 
 ### Approximated sectors
 
