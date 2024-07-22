@@ -52,6 +52,10 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: deploy
+      - name: Download artifact
+        uses: actions/download-artifact@v3
+        with:
+          name: deploy
       - name: Unzip
         run: unzip deploy.zip  
       - name: Upload
