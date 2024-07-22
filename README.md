@@ -5,7 +5,9 @@ Notebook to estimate end of life volumes by plastic polymer per region and year 
 <br>
 
 ## Purpose
-This notebook approximates the polymer-level volumes reaching end of life in each region within the [Global Plastics AI Policy Tool](https://global-plastics-tool.org/) by distributing waste in each fate proportionally to the size of each sector at the time of waste generation. Having attributed waste by sector, a static matrix converts to polymers which are then summed across sectors. The notebook discusses limitations of this approach and alternatives after generating the output CSV file. This is provided as a convenience for the community but is not part of the "main tool" (see [tool repository](https://github.com/SchmidtDSE/plastics-prototype)) or its publications.
+This notebook approximates the polymer-level volumes reaching end of life in each region within the [Global Plastics AI Policy Tool](https://global-plastics-tool.org/) by distributing waste in each fate proportionally to the size of each sector at the time of waste generation. Having attributed waste by sector, a static matrix converts to polymers which are then summed across sectors. 
+
+This is provided for convenience to the community but is not part of the "main tool" (see [tool repository](https://github.com/SchmidtDSE/plastics-prototype)) or its publications.
 
 <br>
 
@@ -23,7 +25,7 @@ Users may notice that the region naming convention has changed from prior releas
 
 ### Approximated sectors
 
-Note that this is a slight approximation. Due to lifecycle distributions, the sector ratios at time of waste generation may not be the same as if one were to project backwards in time to get the prior sector ratios which generated the waste in question. However, this provides a sufficient estimation for many use cases in which approximation is accetable. Alternatively, one may generate more precise values by simulating the lifecycle distributions and summing volumes per-polymer while projecting forward future waste. For more details on this, see the [pipeline behind the Global Plastics AI Policy Tool](https://github.com/SchmidtDSE/plastics-pipeline).
+Note that this method introduces a slight approximation. Due to lifecycle distributions, the sector ratios at time of waste generation may not be the same as if one were to project through time to get the prior sector ratios which generated the waste in question. However, this use of "end of life year ratios" provides a sufficient estimation for many use cases in which approximation is acceptable. Alternatively, one may generate more precise values by simulating the lifecycle distributions and summing volumes per-polymer while projecting forward future waste. For more details on this, see the [pipeline behind the Global Plastics AI Policy Tool](https://github.com/SchmidtDSE/plastics-pipeline).
 
 <br>
 
@@ -33,12 +35,12 @@ For those looking to execute this locally, simply install python requirements wi
 <br>
 
 ## Development
-The notebook can be run by executing `$ jupyter notebook` while in this repository's directory and navigating to the `PolymerEndLifeApproximation` notebook.
+The notebook can be run by executing `jupyter notebook` while in this repository's directory and navigating to the `PolymerEndLifeApproximation` notebook.
 
 <br>
 
 ## Contributing
-No explicit development standards are imposed at this time.
+No explicit development standards are enforced at this time.
 
 <br>
 
