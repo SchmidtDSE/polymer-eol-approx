@@ -49,11 +49,7 @@ jobs:
       - name: Install zip
         run: sudo apt-get install zip
       - name: Download artifact
-        uses: actions/download-artifact@v3
-        with:
-          name: deploy
-      - name: Download artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: deploy
       - name: Unzip
