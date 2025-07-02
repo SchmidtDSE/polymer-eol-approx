@@ -43,11 +43,11 @@ There are two important caveats for this software.
 
 Users may notice that the region naming convention has changed from prior releases of our tool. We provide these values as Majority World (MW) intead of Rest of World (ROW) and North America (NA) instead of NAFTA. These labels encompass the same parts of the world regardless of labeling convention though we encourage use of MW and NA. Alternative data exports with legacy names can be found in [the tool itself](https://global-plastics-tool.org/).
 
-### Approximated sectors
+### Approximated calculations
 
-Note that this method introduces a slight approximation. Due to lifecycle distributions, the sector ratios at time of waste generation may not be the same as if one were to project through time to get the prior sector ratios which generated the waste in question. However, this use of "end of life year ratios" provides a sufficient estimation for many use cases in which approximation is acceptable. Alternatively, one may generate more precise values by simulating the lifecycle distributions and summing volumes per-polymer while projecting forward future waste. For more details on this, see the [pipeline behind the Global Plastics AI Policy Tool](https://github.com/SchmidtDSE/plastics-pipeline).
+Note that this method introduces a significant approximation. Due to lifecycle distributions, the sector ratios at time of waste generation may not be the same as if one were to project through time to get the prior sector ratios which generated the waste in question. Additionally, we do not have sector-specific or product-specific EOL fate propensities, using proportionality instead to provide a rough estimation. Even so, this use of "end of life year ratios" may provide a sufficient estimation for many use cases in which this approximation is acceptable. For more details on this, see the [pipeline behind the Global Plastics AI Policy Tool](https://github.com/SchmidtDSE/plastics-pipeline).
 
 <br>
 
 ## License
-This code is released under the [BSD 3-Clause License](https://opensource.org/license/bsd-3-clause). See LICENSE.md for more details. Note that the data themselves are subject to [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+This code is released under the [BSD 3-Clause License](https://opensource.org/license/bsd-3-clause). See LICENSE.md for more details. Note that the data themselves are subject to [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/). Uses results from [10.1126/science.adr3837](https://www.science.org/doi/10.1126/science.adr3837): A. Samuel Pottinger et al. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. Science 386, 1168-1173 (2024).
