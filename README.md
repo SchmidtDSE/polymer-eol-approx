@@ -50,4 +50,6 @@ Note that this method introduces a significant approximation. Due to lifecycle d
 <br>
 
 ## License
-This code is released under the [BSD 3-Clause License](https://opensource.org/license/bsd-3-clause). See LICENSE.md for more details. Note that the data themselves are subject to [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/). Uses results from [10.1126/science.adr3837](https://www.science.org/doi/10.1126/science.adr3837): A. Samuel Pottinger et al. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. Science 386, 1168-1173 (2024).
+This code is released under the [BSD 3-Clause License](https://opensource.org/license/bsd-3-clause). See LICENSE.md for more details. Note that the data themselves are subject to [CC-BY-NC](https://creativecommons.org/licenses/by-nc/4.0/).
+
+Uses data from [10.1126/science.adr3837](https://www.science.org/doi/10.1126/science.adr3837): A. Samuel Pottinger et al. Pathways to reduce global plastic waste mismanagement and greenhouse gas emissions by 2050. Science 386, 1168-1173 (2024).
